@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+<!-- 
+
+These are other types of buttons
+<input type="color" name="">
+<input type="radio" name=""> 
+
+
+-->
+<h1>Login</h1>
+
+<!-- action where the form sends data to; if nothing is specified it will default to a get request->
+<!-- method - what HTTP method (get/post) -->
+<!-- "Get" retrieves info; "post" sends info -->
+Hello
+<p></p>
+<form action="http://wikipedia.org" method="GET">
+<!-- <form>	 -->
+	<label>
+		Username: 
+		<input name="username" type="text" placeholder="username">
+	</label>
+
+	<label>
+		Password: 
+		<input name="password" type="password" placeholder="password">
+	</label>
+
+	<!-- <button>Submit</button> -->
+	<input type="submit" >
+
+</form>
+
+
+<!-- ALTERNATE SYNTAX -->
+<form action="http://wikipedia.org" method="GET">
+<!-- <form>	 -->
+	<label for="username"> Email: </label>
+		<input id="username" type="email" placeholder="email"  required>
+
+	<label for="password"> Password: </label>
+		<input id="password" type="password" placeholder="password" required>
+	<!-- "required" is a boolean attribute, meaning it just has to be there for it to work. You don't have to set it to 'true'. It depends on the browser to work-->
+	<!-- <button>Submit</button> -->
+	<input type="submit" >
+
+</form>
+
+<!-- Labels help at captions to forms, at make them easy to understand for screenreaders (fo the visually impaired) as well as bots (so they know what's what) -->
+
+<!-- Validations force fields to enter certain kinds of data only. These are just the simple HTML validations. More complicated ones will be learened later.
+
+In HTML you can check to make sure something's not empty, and to check data type/format -->
+</body>
+</html>

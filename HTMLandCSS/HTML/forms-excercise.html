@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1>Register</h1>
+
+<form>
+<!-- First name -->
+	<label for="fname"> First Name: </label>
+	<input id="fname" type="text" placeholder="John"  required>
+
+<!-- Last name -->
+	<label for="lname"> Last Name: </label>
+	<input id="lname" type="text" placeholder="Smith"  required>
+
+<!-- Sex -->
+	<p>
+		<label for="Male">Male</label>
+	<input name="sex" id="Male" type="radio" name="" value="MALE">
+	<label for="Female">Female</label>
+	<input name="sex" id="Female" type="radio" name="" value="FEMALE">
+	<label for="Other">Other</label>
+	<input name="sex" id="Other" type="radio" name="" value="OTHER">
+
+<!-- Email -->
+	<p>
+	<label for="email"> Email: </label>
+		<input id="email" type="email" placeholder="your email"  required>
+
+
+<!-- Password -->
+	<!-- password must be between 5-10 characters -->
+	<label for="password">Password:</label>
+	<input id="password" type="password" placeholder="your password" required pattern=".{5,10}" title="5 to 10 characters">	
+
+<!-- Birthday -->
+	<p>
+		<label for="dogs">Birthday
+	<!-- Month -->
+			<select name="bdmonth" placeholder="Month">
+				<option value="" selected disabled hidden>Month</option>
+				<option value="1">January</option>
+				<option value="2">February</option>
+				<option value="3">March</option>
+				<option value="4">April</option>
+			</select>
+
+	<!-- Day -->
+			<select name="bddate">
+				<option value="" selected disabled hidden>Day</option>
+				<option value="1">01</option>
+				<option value="2">02</option>
+				<option value="3">03</option>
+				<option value="4">04</option>
+				<option value="5">05</option>
+				<option value="6">06</option>
+			</select>
+
+	<!-- Year -->
+			<select name="bdyear">
+				<option value="" selected disabled hidden>Year</option>
+				<option value="2001">2001</option>
+				<option value="2002">2002</option>
+				<option value="2003">2003</option>
+				<option value="2004">2004</option>
+				<option value="2005">2005</option>
+				<option value="2006">2006</option>
+			</select>		
+	</label>
+	
+
+<!-- T&C -->
+	<p> I agree to the terms and conditions <input type="checkbox" name="TnC">
+<!-- <button>Submit</button> -->
+	<p>
+		<input type="submit">
+	</p>
+</form>
+
+
+
+</body>
+</html>

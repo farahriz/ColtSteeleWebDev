@@ -1,0 +1,24 @@
+h1	{
+	color: rgba(0,200,100, 0.8);
+/*	border-color: cornflowerblue;
+	border-width: 5px;
+	border-style: solid;
+*/
+	border: 5px solid cornflowerblue;
+}
+
+li {
+	color: orange;
+}
+
+h4 {
+	color: blue;
+}
+
+body {
+	background: cornsilk;
+/*	background: url();
+	background-repeat: no-repeat;
+	background-size: cover;*/
+
+}

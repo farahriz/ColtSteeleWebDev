@@ -1,0 +1,22 @@
+li {
+	border: 2px dashed ivory
+}
+
+body {
+	background-color: orange
+}
+
+h1 {
+
+	color: blue;
+}
+
+#spec {
+	background: yellow;
+}
+
+.completed {
+	/*Kind of like #but you can use a class multiple times on the same page*/
+	text-decoration: line-through;
+	/* Check MDN for all the various text decoration styles*/
+}

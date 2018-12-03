@@ -1,0 +1,50 @@
+<!-- radio button; only one choice, can't turn off on it's own-->
+<!-- select tag -->
+<!-- textarea tag -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inputs Demo</title>
+</head>
+<body>
+
+<!-- Giving the options the same name links the data, so the computer knows it's an "either/or" choice -->
+
+<p><strong>Do you prefer cats or dogs?</strong></p>
+<form>
+	<label for="dogs">Dogs</label>
+	<input name="petChoice" id="dogs" type="radio" name="" value="DOGS">
+	<label for="cats">Cats</label>
+	<input name="petChoice" id="cats" type="radio" name="" value="CATS">
+
+<!-- select lets you make nice dropdown menus -->
+	<p>What's your favourite colour?</p>
+		<select name="fave">
+			<option>Red</option>
+			<option>Orange</option>
+			<option>Blue</option>
+		</select>
+	<button>Go!</button>
+
+	<p>What's your current mood?</p>
+		<select name="mood">
+			<option value="happy">;)</option>
+			<option value="neutral"> :/ </option>
+			<option value="sad">:( </option>
+		</select>
+	
+	<p></p>
+	<textarea name="essay" rows="5" cols="40"></textarea>
+	<p></p>
+	<button>Go!</button>
+</form>
+
+<!-- "textarea" is a nice way to have inputs that go over several lines. it's another tag like select, rather than a tag -->
+
+<p>
+</p>
+<input type="checkbox" name="">
+
+</body>
+</html>

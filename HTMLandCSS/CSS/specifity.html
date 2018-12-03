@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Specifity</title>
+	<style type="text/css">
+	body {
+		color: red;
+	}	
+
+	ul {
+		color: green;
+	}
+
+	li {
+		color: orange;
+	}
+
+	</style>
+</head>
+<body>
+
+<!-- Specifity says that multiple styles can target one element. CSS has to decided which one wins. Whichever one is more specific tends to win. Hence, specifity. -->
+
+<!-- Read MDN article for deatils on how specifity is calculated. You can also use specifity calculators online to show the exact specifity -->
+
+<!-- In general, MOST SPECIFIC > id selector > class selectors > .hello > li + a > li a > li > LEAST SPECIFIC -->
+
+
+<p>HELLO!!!</p>
+
+<ul>
+	<li>John</li>
+	<li>Paul</li>
+	<li>George</li>
+	<li>Ringo</li>
+</ul>
+
+</body>
+</html>

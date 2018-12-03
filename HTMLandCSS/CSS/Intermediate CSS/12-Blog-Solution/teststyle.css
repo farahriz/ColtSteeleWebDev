@@ -1,0 +1,51 @@
+
+body {
+	font-family: source sans pro;
+	font-size: 12px;
+	margin: 20px auto;
+	max-width: 1000px;
+}
+
+#frame {
+	border: 20px solid #bdc3c7;
+	width:60%;
+	margin: auto;
+}
+
+.date {
+	color: #3498db;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 3px;
+	/*letter-spacing: 2rem; That was the real answer. REM is root em, so it's consistent and doesn't depend on the parent elements*/
+	font-size: 12px;
+	padding-top: 10px;
+
+}
+
+h2 {
+	color: #2c3e50;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	padding-bottom: 0px;
+}
+
+hr { 
+    border-width: 1px;
+    border-color: #bdc3c7;
+}
+
+div div {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+blockquote {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 20px;
+    margin-right: 0px;
+    border-left: 5px solid #bdc3c7;
+    padding-left: 10px;
+}

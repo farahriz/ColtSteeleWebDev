@@ -1,0 +1,23 @@
+div {
+	width 30%
+	float:
+}
+
+img {
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+}
+
+/*When you don't specify anything, HTML will default to making a little white space between all objects*/
+p {
+	font-family: Raleway;
+	margin-left: 1.66%;
+	font-size: 23px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: 1px solid lightgrey;
+	width: 30%;
+	padding-bottom: 20px;
+}
+

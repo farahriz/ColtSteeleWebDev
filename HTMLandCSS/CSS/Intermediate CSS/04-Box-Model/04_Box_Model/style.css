@@ -1,0 +1,30 @@
+p {
+
+/*Content - Width and Height*/
+
+width: 50%;
+/*Border*/
+/*% is % of the parrent elment in this case it's 50% of the body*/
+
+
+border: 2px solid blue;
+
+/*Padding*/
+
+/*padding: 10px;*/
+padding-left: 40px;
+
+/*Margin*/
+/*margin: 100px;*/
+/*margin-top: 500px;*/
+/*margin: 20px 40px 500px 100px;  goes clockwise from the top, i.e. top right bottom left*/
+/*margin: 0 auto 0 auto;*/
+/* margin auto on left or write wwill centre it for us*/
+/*margin* 0 auto is 0TB, autoLR*/
+margin: 0 auto;
+margin: 50px 20px;
+}
+
+
+
+
